@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.a11ytk.a11ytk": "https://github.com/a11ytk/a11ytk.git#upm",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.1.4",
@@ -38,5 +39,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.a11ytk.a11ytk": {
+      "revision": "upm",
+      "hash": "7b37698d16a717a4e3abc54235431def12efb724"
+    }
   }
 }
