@@ -290,7 +290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 1919654996}
   - component: {fileID: 1919654995}
   - component: {fileID: 1919654994}
+  - component: {fileID: 1919654999}
   m_Layer: 0
   m_Name: Quad (Mo)
   m_TagString: Untagged
@@ -419,12 +420,36 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919654993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1919654999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919654993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374462cffce242f19e22da64af7c8b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _subtitleText: '1
+
+    0:0:1,0 --> 0:0:2,0
+
+    Hello, world.
+
+'
+  _subtitleTextAsset: {fileID: 4900000, guid: e9948cf70b9d44bf58144814506275a8, type: 3}
+  _position: 0
+  _mode: 0
+  _subtitleOptions: {fileID: 11400000, guid: aab2bed85e178449bb325ba31537a7e7, type: 2}
+  _videoSource: {fileID: 1919654994}
 --- !u!1 &1950112602
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +463,7 @@ GameObject:
   - component: {fileID: 1950112604}
   - component: {fileID: 1950112603}
   - component: {fileID: 1950112607}
+  - component: {fileID: 1950112608}
   m_Layer: 0
   m_Name: Quad (Luigi)
   m_TagString: Untagged
@@ -514,7 +540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950112602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
+  m_LocalPosition: {x: -2.5, y: 0, z: 10}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -554,6 +580,30 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &1950112608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950112602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374462cffce242f19e22da64af7c8b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _subtitleText: '1
+
+    0:0:1,0 --> 0:0:2,0
+
+    Hello, world.
+
+'
+  _subtitleTextAsset: {fileID: 4900000, guid: 6ada572d6fc3a420e8c54b30b82c1388, type: 3}
+  _position: 0
+  _mode: 0
+  _subtitleOptions: {fileID: 11400000, guid: aab2bed85e178449bb325ba31537a7e7, type: 2}
+  _videoSource: {fileID: 1950112607}
 --- !u!1 &2093263536
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,6 +617,7 @@ GameObject:
   - component: {fileID: 2093263539}
   - component: {fileID: 2093263538}
   - component: {fileID: 2093263537}
+  - component: {fileID: 2093263542}
   m_Layer: 0
   m_Name: Quad (Scott)
   m_TagString: Untagged
@@ -677,9 +728,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093263536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 0, z: 0}
+  m_LocalPosition: {x: 2.5, y: 0, z: 10}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2093263542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093263536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374462cffce242f19e22da64af7c8b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _subtitleText: '1
+
+    0:0:1,0 --> 0:0:2,0
+
+    Hello, world.
+
+'
+  _subtitleTextAsset: {fileID: 4900000, guid: 54c29edbae55449b4be31609b0194c2b, type: 3}
+  _position: 0
+  _mode: 0
+  _subtitleOptions: {fileID: 11400000, guid: aab2bed85e178449bb325ba31537a7e7, type: 2}
+  _videoSource: {fileID: 2093263537}
